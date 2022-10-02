@@ -1,0 +1,99 @@
+html{
+  letter-spacing: .15rem;
+}
+
+.banner{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.padding-hero{
+  padding-left:15%;
+  padding-right:25%;
+}
+
+.padding-restaurace{
+  text-align: end;
+  padding-left:35%;
+  padding-right:15%;
+}
+
+
+#restaurace, #areal, #zajimavosti, #galerie{
+  min-height: 45rem;
+}
+#zajimavosti{
+  margin-bottom: 60px;
+}
+
+.hero-image {
+  background-image: url('../img/img-hero.jpg');
+}
+
+.restaurace-image {
+  color: #FFFFFF;
+  background-image: url('../img/img-restaurace.jpg');
+  overflow: hidden;
+
+}
+
+.logo{
+  height: 9.5rem;
+}
+
+.navbar-default {
+  background-color:transparent;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  position: absolute;
+}
+
+.fa-15x{
+  font-size:1.9rem;
+}
+
+.areal-logo{
+  height:15rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 120px;
+  margin-bottom: 60px;
+
+}
+
+.areal-logo-down{
+  margin-top: 270px;
+  margin-bottom: 60px;
+}
+
+.areal-logo-restaurace{
+  height:15rem;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .areal-logo-down, .areal-logo{
+    margin-top: 50px;
+  }
+}
+
+
+.video{
+  text-align: center;
+  padding: 10% 0 10% 0;
+}
+
+#video{
+  width:70%;
+  height:480px;
+}
