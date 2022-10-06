@@ -85,6 +85,9 @@ html{
   .areal-logo-down, .areal-logo{
     margin-top: 50px;
   }
+  #video{
+    height: 240px !important;;
+  }
 }
 
 
