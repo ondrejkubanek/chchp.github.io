@@ -137,9 +137,6 @@
       </div>
     </section>
 
-    <script src="js/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
      <!-- Galerie section -->
      <section id="galerie" class="container">
       <h3 class="short">Fotografie z akcí</h3>
@@ -179,25 +176,8 @@
         </div>
      </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-     
-      var nav = document.querySelector('nav');
-      var ico = document.getElementById('ico');
-      if($(window).width() < 992){
-        ico.src="./img/logos/logo-black.png";
-        nav.classList.add('bg-light','shadow');}
-      window.addEventListener("resize", myFunction);
-      function myFunction() {
-        if($(window).width() < 992){
-        nav.classList.add('bg-light', 'shadow');
-        ico.src="./img/logos/logo-black.png";
-      }else{
-        nav.classList.remove('bg-light', 'shadow');
-        ico.src="./img/logos/logo-white.png";
-
-      }};
-    </script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
