@@ -17,6 +17,7 @@ html{
 .padding-hero{
   padding-left:15%;
   padding-right:25%;
+  padding-top: 3rem;
 }
 
 .padding-restaurace{
@@ -26,8 +27,11 @@ html{
 }
 
 
-#restaurace, #areal, #zajimavosti, #galerie{
+#restaurace, #areal, #zajimavosti, #footer{
   min-height: 45rem;
+}
+#galerie{
+  min-height: 40rem;
 }
 #zajimavosti{
   margin-bottom: 60px;
@@ -89,7 +93,6 @@ html{
     height: 240px !important;;
   }
 }
-
 
 .video{
   text-align: center;
