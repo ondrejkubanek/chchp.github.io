@@ -15,17 +15,22 @@ html{
 }
 
 .padding-hero{
-  padding-left:15%;
-  padding-right:25%;
-  padding-top: 3rem;
+  padding-left:15%;  
+  padding-top:30px;
+}
+@media (max-width: 992px) {
+  .padding-hero{
+    padding-top:25%;
+  }
+}
+.hero-text{
+  padding-right: 25%;
 }
 
 .padding-restaurace{
-  padding-left:15%;
-  padding-right:25%;
-  padding-top: 3rem;
+  text-align: end;
+  padding-right:15%;
 }
-
 
 #restaurace, #areal, #zajimavosti, #footer{
   min-height: 45rem;
