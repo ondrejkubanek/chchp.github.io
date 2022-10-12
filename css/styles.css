@@ -30,6 +30,11 @@ html{
 .padding-restaurace{
   text-align: end;
   padding-right:15%;
+  padding-left:30px;
+}
+
+.restaurace-text{
+  padding-left: 25%;
 }
 
 #restaurace, #areal, #zajimavosti, #footer{
@@ -47,10 +52,8 @@ html{
 }
 
 .restaurace-image {
-  color: #FFFFFF;
   background-image: url('../img/img-restaurace.jpg');
   overflow: hidden;
-
 }
 
 .logo{
