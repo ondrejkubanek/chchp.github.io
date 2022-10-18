@@ -39,7 +39,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #A3B986;
-  --bs-link-hover-color: #003A2B;
+  --bs-link-hover-color: #e5ffc3;
 }
 
 *,
@@ -234,6 +234,7 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
+  transition: all .25s ease-in-out;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -2793,7 +2794,7 @@ textarea.form-control-lg {
 .btn {
   --bs-btn-padding-x: 4rem;
   --bs-btn-padding-y: 0.5rem;
-  --bs-btn-font-size: calc(0.825rem + 0.6vw);
+  --bs-btn-font-size: 16px;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #212529;
@@ -2880,9 +2881,9 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #6c757d;
-  --bs-btn-border-color: #6c757d;
+  --bs-btn-color: var(--bs-light);;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: var(--bs-light);
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5c636a;
   --bs-btn-hover-border-color: #565e64;
@@ -10913,3 +10914,7 @@ textarea.form-control-lg {
 
 /*# sourceMappingURL=bootstrap.css.map */
 
+
+.social-link:hover{
+  color: var(--bs-link-hover-color)!important;
+}
