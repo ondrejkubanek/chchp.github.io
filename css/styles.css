@@ -55,6 +55,13 @@ html{
   overflow: hidden;
 }
 
+.prohlidky-image{
+  background-image: url("../img/img-dalekohled.jpg");
+}
+.zazitky-image{
+  background-image: url("../img/img-zazitky.jpg");
+}
+
 .logo{
   height: 9.5rem;
   -webkit-user-drag: none;
@@ -165,11 +172,8 @@ html{
   padding:1rem;
 }
 
-.info-image{
-  background-image: url("../img/img-dalekohled.jpg");
-  background-color: rgba(255, 255, 255, 0.5);
-}
 
-.image-tours{
-  padding:3rem;
+
+.tour-padding{
+  padding:3rem 1rem 0rem 1rem;
 }
