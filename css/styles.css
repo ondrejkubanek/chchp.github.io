@@ -172,8 +172,35 @@ html{
   padding:1rem;
 }
 
-
-
 .tour-padding{
   padding:3rem 1rem 0rem 1rem;
 }
+
+.hover-overlay .mask{
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+.hover-overlay .mask:hover {
+  opacity: 1;
+  }
+
+.mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+  }
+
+
+.bg-image {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  }
