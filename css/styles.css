@@ -30,7 +30,7 @@ html{
 }
 
 
-#restaurace, #areal, #zajimavosti, #prohlidky{
+#restaurace, #areal, #zajimavosti, #prohlidky,#kontakt{
   min-height: 45rem;
 }
 #galerie{
@@ -62,23 +62,27 @@ html{
   background-image: url("../img/img-zazitky.jpg");
 }
 
-.logo{
-  height: 9.5rem;
+.kontakt-image{
+  background-image: url("../img/img-kontakt.jpg");
+
+}
+
+img{
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+}
+
+.logo{
+  height: 9.5rem;
+
 }
 
 .logo-restaurace{
   padding:3rem 3.5rem 0 0;
   height: 12rem;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none;
+ 
 }
 
 .navbar-default {
@@ -92,6 +96,17 @@ html{
 
 .fa-15x{
   font-size:1.9rem;
+}
+
+.kontakt-areal-logo{
+  height:19rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin:30px;
+}
+.kontakt-areal-text{
+  margin:4rem 0 0 9rem;
 }
 
 .areal-logo{
@@ -144,11 +159,6 @@ html{
 
 .footer{
   width: 100%;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none;
 }
 
 .footer-text{
