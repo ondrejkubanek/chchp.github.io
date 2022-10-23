@@ -64,7 +64,10 @@ html{
 
 .kontakt-image{
   background-image: url("../img/img-kontakt.jpg");
+}
 
+.pronajem-image{
+  background-image: url("../img/img-pronajem.jpg");
 }
 
 img{
