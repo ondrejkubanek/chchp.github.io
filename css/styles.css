@@ -159,6 +159,9 @@ img{
   .logo{
     height:4rem;
   }
+  .events-title{
+    padding:1.5rem;
+  }
 }
 
 .copy{
