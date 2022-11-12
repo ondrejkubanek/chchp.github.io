@@ -307,8 +307,19 @@ img{
     transform: rotate(0deg);
 }
 
-/* Color of 3 lines */
-
 .navbar-toggler.collapsed .toggler-icon {
     background: #071013;
+}
+
+.interest-image{
+  height:250px;
+}
+
+.interest-title{
+  padding-top:30px;
+}
+
+.interests{
+  text-align: center;
+  margin-top: 30px;
 }
