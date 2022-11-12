@@ -322,7 +322,18 @@ img{
   padding-top:30px;
 }
 
-.interests{
+.interests {
   text-align: center;
   margin-top: 30px;
+}
+
+.interests img{
+  -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+  opacity: 1;
+}
+
+.interests img:hover{
+	opacity: .5;
+  height:270px;
 }
