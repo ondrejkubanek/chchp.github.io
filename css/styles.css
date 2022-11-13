@@ -143,7 +143,8 @@ img{
     margin-top: 50px;
   }
   #video{
-    height: 240px !important;;
+    height: 240px !important;
+    width: 525px !important;
   }
   .copy{
     padding: 0 0 1.5rem 0!important;
@@ -335,5 +336,24 @@ img{
 
 .interests img:hover{
 	opacity: .5;
-  height:270px;
+  height:260px;
+}
+
+.buttonNahoru{
+transition: all .2s ease-in-out;
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: #214e41;
+padding: 10px 15px 10px 15px;
+border-radius: 50%;
+color: white;
+}
+.buttonNahoru:hover{
+  background-color: #A3B986!important;
 }

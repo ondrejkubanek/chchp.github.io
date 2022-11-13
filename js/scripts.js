@@ -14,3 +14,17 @@ function myFunction() {
 
 }};
 
+var mybutton = document.getElementById("buttonUp");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 980 || document.documentElement.scrollTop > 980) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+function topFunction() {
+    $('html, body').animate({
+        scrollTop: $("#page-top").offset().top
+    }, 200);
+}
