@@ -354,6 +354,13 @@ padding: 10px 15px 10px 15px;
 border-radius: 50%;
 color: white;
 }
+
 .buttonNahoru:hover{
   background-color: #A3B986!important;
+}
+
+.hero-footer{
+  width:100%;
+  position: absolute;
+  bottom:0px;
 }
