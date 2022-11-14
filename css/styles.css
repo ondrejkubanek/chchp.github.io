@@ -143,8 +143,8 @@ img{
     margin-top: 50px;
   }
   #video{
-    height: 240px !important;
-    width: 525px !important;
+    height: 270px !important;
+    width: 90% !important;
   }
   .copy{
     padding: 0 0 1.5rem 0!important;
@@ -362,5 +362,6 @@ color: white;
 .hero-footer{
   width:100%;
   position: absolute;
+  display: flex;
   bottom:0px;
 }
