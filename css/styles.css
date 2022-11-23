@@ -163,6 +163,9 @@ img{
   .events-title{
     padding:1.5rem;
   }
+  .tour-photo{
+    padding-top:3rem!important;
+  }
 }
 
 .copy{
@@ -172,7 +175,7 @@ img{
 
 .video{
   text-align: center;
-  padding: 10% 0 10% 0;
+  padding: 7% 0 7% 0;
 }
 
 #video{
@@ -207,6 +210,10 @@ img{
 
 .tour-padding{
   padding:3rem 1rem 0rem 1rem;
+
+}
+.tour-photo{
+  padding-top: 5.5rem;
 }
 
 .hover-overlay .mask{
@@ -364,4 +371,8 @@ color: white;
   position: absolute;
   display: flex;
   bottom:0px;
+}
+
+.paragraf{
+  padding: 0.5rem 0 0.5rem 0;
 }
