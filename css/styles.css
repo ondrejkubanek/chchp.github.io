@@ -209,11 +209,11 @@ img{
 }
 
 .tour-padding{
-  padding:3rem 1rem 0rem 1rem;
+  padding:3rem 1rem 3rem 1rem;
 
 }
 .tour-photo{
-  padding-top: 5.5rem;
+  padding-top: 3.5rem;
 }
 
 .hover-overlay .mask{
@@ -344,6 +344,10 @@ img{
 .interests img:hover{
 	opacity: .5;
   height:260px;
+}
+
+.events-title{
+  padding-top:7rem;
 }
 
 .buttonNahoru{
