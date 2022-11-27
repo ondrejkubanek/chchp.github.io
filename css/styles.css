@@ -109,13 +109,22 @@ img{
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .kontakt-areal-text{
-  margin:4.3rem 0 0 9rem;
+  margin:4rem 0 0 3rem;
 }
 
-.kontakt-areal-text-right{
-  margin:4rem 0 0 0;
+.pronajem-areal-logo{
+  height:19rem;
+  display: block;
+  margin: 2rem auto 2rem auto;
+}
+
+.pronajem-areal-text{
+  margin:4rem 0 0 3rem;
+}
+
+.pronajem-areal-text-right{
+  margin:4rem 0 0 3rem;
 }
 
 .areal-logo{
