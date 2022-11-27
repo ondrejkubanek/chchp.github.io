@@ -128,17 +128,17 @@ img{
 }
 
 .areal-logo{
-  height:15rem;
+  height:24rem;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 120px;
+  margin-top: 60px;
   margin-bottom: 60px;
 
 }
 
 .areal-logo-down{
-  margin-top: 270px;
+  margin-top: 240px;
   margin-bottom: 60px;
 }
 
