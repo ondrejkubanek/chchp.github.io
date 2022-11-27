@@ -127,19 +127,21 @@ img{
   margin:4rem 0 0 3rem;
 }
 
+.areal-stred{
+  height:25.5rem !important;
+}
+
 .areal-logo{
   height:24rem;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 60px;
-  margin-bottom: 60px;
+  
 
 }
 
 .areal-logo-down{
   margin-top: 240px;
-  margin-bottom: 60px;
 }
 
 .areal-logo-restaurace{
