@@ -102,15 +102,12 @@ img{
 }
 
 .kontakt-areal-logo{
-  height:19rem;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 40px;
-  margin-bottom: 40px;
+  height:17rem;
+  display: block;
+  margin: 3rem auto 3rem auto;
 }
 .kontakt-areal-text{
-  margin:4rem 0 0 3rem;
+  margin:4rem 0 0 10rem;
 }
 
 .pronajem-areal-logo{
