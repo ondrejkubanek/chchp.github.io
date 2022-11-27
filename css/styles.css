@@ -26,9 +26,7 @@ html{
 
 .restaurace{
   text-align: end;
-
 }
-
 
 #restaurace, #areal, #zajimavosti, #prohlidky,#kontakt{
   min-height: 45rem;
@@ -58,6 +56,7 @@ html{
 .prohlidky-image{
   background-image: url("../img/img-dalekohled.jpg");
 }
+
 .zazitky-image{
   background-image: url("../img/img-zazitky.jpg");
 }
@@ -67,6 +66,18 @@ html{
 }
 
 .pronajem-image{
+  background-image: url("../img/img-pronajem.jpg");
+}
+
+.areal-zahrada-image{
+  background-image: url("../img/img-zahrada.jpg");
+}
+
+.areal-chram-image{
+  background-image: url('../img/img-chram.jpg');
+}
+
+.areal-sladovna-image{
   background-image: url("../img/img-pronajem.jpg");
 }
 
@@ -136,8 +147,17 @@ img{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  
+}
 
+.areal-logo-div img{
+  -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+  opacity: 1;
+}
+
+.areal-logo-div img:hover{
+	opacity: .5!important;
+  height: 400px !important;;
 }
 
 .areal-logo-down{
@@ -363,6 +383,7 @@ img{
 	transition: .2s ease-in-out;
   opacity: 1;
 }
+
 
 .interests img:hover{
 	opacity: .5;
