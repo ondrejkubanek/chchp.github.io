@@ -1,5 +1,5 @@
 html{
-  letter-spacing: .15rem;
+  letter-spacing: .09rem;
 }
 
 .banner{
@@ -22,7 +22,6 @@ html{
   font-size: 1.2rem;
   margin-top: 2rem;
 }
-
 
 .restaurace{
   text-align: end;
@@ -223,13 +222,20 @@ img{
 }
 
 #footer-bottom .social a {
-  text-align: center;
-  height: 4rem;
-  width: 4rem;
+text-decoration: none;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 4rem;
+
+  align-items: center;
+border-radius: 150px;
+color: #fff;
+display: flex;
+font-size: 2.125rem;
+height: 70px;
+justify-content: center;
+padding: 0;
+width: 70px;
 }
+
 
 .social{
   padding-top:3.5rem;
@@ -411,7 +417,7 @@ color: white;
 }
 
 .buttonNahoru:hover{
-  background-color: #A3B986!important;
+  background-color: #00140f!important;
 }
 
 .hero-footer{
