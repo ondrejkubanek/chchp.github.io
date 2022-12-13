@@ -19,6 +19,7 @@
     <button onclick="topFunction()" class="buttonNahoru" id="buttonUp" style="display: none;"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
     <!-- Navbar  -->
     <nav class="navbar navbar-default navbar-expand-lg p-md-3">
+      
       <div class="container">
         <a class="navbar-brand " href="./index.html"><img id="ico" class="logo"src="./img/logos/logo-white.png" alt="CHCHP - logo"></a>
         <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,6 +27,17 @@
           <span class="toggler-icon middle-bar"></span>
           <span class="toggler-icon bottom-bar"></span>
         </button>
+        <div class="languages">
+          <a href="https://www.chchp.cz">
+            <img src="./img/assets/cs.svg" alt="Čeština" height="25px">
+          </a>
+          <a href="https://www.chchp.cz/en">
+            <img src="./img/assets/de.svg" alt="Deutch" height="25px">
+          </a>
+          <a href="https://www.chchp.cz/de">
+            <img src="img/assets/en.svg" alt="English" height="25px">
+          </a>
+        </div>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
@@ -194,7 +206,7 @@
                 </div>
                 <div class="carousel-inner rounded">
                   <div class="carousel-item active">
-                    <img src="img/events/akce_1.jpg" class="d-block w-100" alt="Lukáš Hejlík v Galerii Sladovna">
+                    <img src="img/events/akce_5.jpg" class="d-block w-100" alt="Lukáš Hejlík v Galerii Sladovna">
                   </div>
                   <div class="carousel-item">
                     <img src="img/events/akce_2.jpg" class="d-block w-100" alt="Obrázek 2 z akce Chrámu Chmele a Piva">
@@ -206,7 +218,7 @@
                     <img src="img/events/akce_4.jpg" class="d-block w-100" alt="Obrázek 4 z akce Chrámu Chmele a Piva">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/events/akce_5.jpg" class="d-block w-100" alt="Obrázek 1 z akce Chrámu Chmele a Piva">
+                    <img src="img/events/akce_1.jpg" class="d-block w-100" alt="Obrázek 1 z akce Chrámu Chmele a Piva">
                   </div>
                   <div class="carousel-item">
                     <img src="img/events/akce_6.jpg" class="d-block w-100" alt="Obrázek 2 z akce Chrámu Chmele a Piva">
