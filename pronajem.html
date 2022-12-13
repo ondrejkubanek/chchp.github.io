@@ -99,11 +99,8 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-6 second-order ">
-                    <img class="pronajem-areal-logo d-block rounded" src="./img/logos/zahrada.jpg">
-                </div>
                 <div class="col-lg-6 ">
-                    <div class="pronajem-areal-text-right">
+                    <div class="pronajem-areal-text">
                         <h4>Klášterní zahrada</h4>
                         <table class="table table-borderless">
                             <tbody>
@@ -131,6 +128,9 @@
                           </table>
                     </div>
                 </div>
+                <div class="col-lg-6 ">
+                  <img class="pronajem-areal-logo d-block rounded" src="./img/logos/zahrada.jpg">
+              </div>
             </div>
         </div>
     </section>
