@@ -35,7 +35,7 @@
             <img src="./img/assets/de.svg" alt="Deutch" height="25px">
           </a>
           <a href="https://www.chchp.cz/de">
-            <img src="img/assets/en.svg" alt="English" height="25px">
+            <img src="./img/assets/en.svg" alt="English" height="25px">
           </a>
         </div>
         <div class="collapse navbar-collapse " id="navbarNav">

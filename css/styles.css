@@ -124,16 +124,12 @@ img{
 }
 
 .pronajem-areal-logo{
-  height:19rem;
+  width: 100%;
   display: block;
   margin: 2rem auto 2rem auto;
 }
 
 .pronajem-areal-text{
-  margin:4rem 0 0 3rem;
-}
-
-.pronajem-areal-text-right{
   margin:4rem 0 0 3rem;
 }
 
@@ -317,7 +313,6 @@ width: 70px;
     height: 20px;
     position: relative;
     transition: .5s ease-in-out;
-    margin-right: 20px;
 }
 
 .navbar-toggler,

@@ -64,6 +64,119 @@
      <section id="kontakt" class="kontakt">
         <div class="container py-5">
             <div class="row">
+                <div class="col-lg-6">
+                    <div class="card shadow mt-4 mt-lg-0">
+                        <div class="card-body pb-2 pt-3 bg-primary">
+                            <h6 class="font-weight-bold mb-0 text-white">Areál Chrám Chmele a Piva</h6>
+                        </div>
+                        <div class="card-body bg-light">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h6 class="font-weight-bold text-primary mb-0">
+                                        Prohlídka:
+                                    </h6>
+                                    Chrám Chmele a Piva, Galerie Sladovna, Chmelařské Muzeum
+                                    <h6 class="font-weight-bold text-primary mb-0 mt-3">
+                                        Ceník:
+                                    </h6>
+                                    <div class="d-flex justify-content-between py-1 border-gray border-bottom">
+                                        <strong>Dospělí</strong>
+                                        <span>190 Kč</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between py-1 border-gray border-bottom">
+                                        <strong>
+                                            Zlevněné
+                                            <i class="ln ln-bg-circle ln-question-circle text-primary" data-toggle="tooltip" title="" data-original-title="Děti, senioři, ZTP a ZTP/P"></i>
+                                        </strong>
+                                        <span>140 Kč</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between py-1">
+                                        <strong>
+                                            Rodinné
+                                            <i class="ln ln-bg-circle ln-question-circle text-primary" data-toggle="tooltip" title="" data-original-title="2 dospělí + až 3 děti"></i>
+                                        </strong>
+                                        <span>430 Kč</span>
+                                    </div>
+                                    <h6 class="font-weight-bold text-primary mb-0 mt-3">Doba prohlídky:</h6>
+                                    165 minut
+                                        <h6 class="font-weight-bold text-primary mb-0 mt-3">Informace:</h6>
+                                        <p class="small text-justify">
+                                            V PRODEJI POUZE V TURISTICKÉ SEZÓNĚ!
+    
+    Prohlídka začíná v Chrámu Chmele a Piva.
+    Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a chmelový poklad. Dále Vás čeká zastávka u Chmelového Orloje, kde se dozvíte jestli se dostanete do pivního pekla nebo ráje a mnoho dalšího, co jediný chmelový orloj v ČR ukazuje. Dále navštívíte Galerii Sladovnu s expozicí Sladovnictví, kde se dozvíte, jak se vyráběl slad jako surovina na výrobu piva a největší chmelařské muzeum na světě!
+                                        </p>
+                                </div>
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <picture>
+                                        <source srcset="/upload/events/qobzsvec14to8jijmcpn1ixsgb1wqq.jpeg" type="image/jpeg">
+                                        <img src="/upload/events/qobzsvec14to8jijmcpn1ixsgb1wqq.jpeg" class="img-fluid br-1" alt="Událost - Title">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card shadow mt-4 mt-lg-0">
+                        <div class="card-body pb-2 pt-3 bg-primary">
+                            <h6 class="font-weight-bold mb-0 text-white">Okruh B</h6>
+                        </div>
+                        <div class="card-body bg-light">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h6 class="font-weight-bold text-primary mb-0">
+                                        Prohlídka:
+                                    </h6>
+                                    Chrám Chmele a Piva, Galerie Sladovna, Chmelařské Muzeum
+                                    <h6 class="font-weight-bold text-primary mb-0 mt-3">
+                                        Ceník:
+                                    </h6>
+                                    <div class="d-flex justify-content-between py-1 border-gray border-bottom">
+                                        <strong>Dospělí</strong>
+                                        <span>190 Kč</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between py-1 border-gray border-bottom">
+                                        <strong>
+                                            Zlevněné
+                                            <i class="ln ln-bg-circle ln-question-circle text-primary" data-toggle="tooltip" title="" data-original-title="Děti, senioři, ZTP a ZTP/P"></i>
+                                        </strong>
+                                        <span>140 Kč</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between py-1">
+                                        <strong>
+                                            Rodinné
+                                            <i class="ln ln-bg-circle ln-question-circle text-primary" data-toggle="tooltip" title="" data-original-title="2 dospělí + až 3 děti"></i>
+                                        </strong>
+                                        <span>430 Kč</span>
+                                    </div>
+                                    <h6 class="font-weight-bold text-primary mb-0 mt-3">Doba prohlídky:</h6>
+                                    165 minut
+                                        <h6 class="font-weight-bold text-primary mb-0 mt-3">Informace:</h6>
+                                        <p class="small text-justify">
+                                            V PRODEJI POUZE V TURISTICKÉ SEZÓNĚ!
+    
+    Prohlídka začíná v Chrámu Chmele a Piva.
+    Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a chmelový poklad. Dále Vás čeká zastávka u Chmelového Orloje, kde se dozvíte jestli se dostanete do pivního pekla nebo ráje a mnoho dalšího, co jediný chmelový orloj v ČR ukazuje. Dále navštívíte Galerii Sladovnu s expozicí Sladovnictví, kde se dozvíte, jak se vyráběl slad jako surovina na výrobu piva a největší chmelařské muzeum na světě!
+                                        </p>
+                                </div>
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <picture>
+                                        <source srcset="/upload/events/qobzsvec14to8jijmcpn1ixsgb1wqq.jpeg" type="image/jpeg">
+                                        <img src="/upload/events/qobzsvec14to8jijmcpn1ixsgb1wqq.jpeg" class="img-fluid br-1" alt="Událost - Title">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+
+
+
                 <div class="col-lg-8">
                     <div class="kontakt-areal-text">
                         <h4>Areál Chrám Chmele a Piva</h4>
@@ -99,6 +212,9 @@
                 </div>
             </div>
             <div class="row">
+
+                
+
                 <div class="col-lg-6 second-order">
                     <a href=""><img class="kontakt-areal-logo " src="./img/logos/logo_CHCHP.png"></a>
                 </div>
