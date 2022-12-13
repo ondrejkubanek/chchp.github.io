@@ -53,12 +53,12 @@
             <li class="nav-item">
               <a class="nav-link " href="./kontakt.html">KONTAKT</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
+            <li class="nav-item social-nav-item">
+              <a class="nav-link social-nav" href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
+              <a class="nav-link social-nav" href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
+
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
-            </li>
+           
           </ul>
         </div>
       </div>
