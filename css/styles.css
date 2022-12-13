@@ -211,8 +211,13 @@ img{
     display: none;
   }
   .social-nav-item{
-    margin-top: .8rem!important;
-}
+    margin-top: .5rem!important;
+    margin-bottom: .5rem!important;
+  }
+  .social-nav{
+    margin-left: 0px!important;
+
+  }
 }
 
 .languages a{
@@ -222,12 +227,9 @@ img{
 .social-nav{
   display: inline;
   padding: 0px !important;
-  margin-left: .5rem!important;
+  margin-left: .5rem;
 }
 
-.social-nav-item{
-  
-}
 
 .copy{
   padding-top: 15.33rem;
