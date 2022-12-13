@@ -210,6 +210,23 @@ img{
   .areal-text{
     display: none;
   }
+  .social-nav-item{
+    margin-top: .8rem!important;
+}
+}
+
+.languages a{
+    text-decoration: none; 
+}
+
+.social-nav{
+  display: inline;
+  padding: 0px !important;
+  margin-left: .5rem!important;
+}
+
+.social-nav-item{
+  
 }
 
 .copy{
