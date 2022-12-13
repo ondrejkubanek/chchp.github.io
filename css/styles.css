@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
 html{
   letter-spacing: .09rem;
 }
@@ -88,8 +89,7 @@ img{
 }
 
 .logo{
-  height: 9.5rem;
-
+  height: 7.5rem;
 }
 
 .logo-restaurace{
@@ -137,12 +137,8 @@ img{
   margin:4rem 0 0 3rem;
 }
 
-.areal-stred{
-  height:25.5rem !important;
-}
-
 .areal-logo{
-  height:24rem;
+  height:280px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -156,12 +152,31 @@ img{
 
 .areal-logo-div img:hover{
 	opacity: .5!important;
-  height: 400px !important;;
 }
 
 .areal-logo-down{
   margin-top: 240px;
 }
+
+.areal-text{
+  position:absolute;
+  height: 150px;
+  margin-top:7rem;
+  height: 142px;
+}
+
+.areal-text-2{
+    height: 155px;
+  margin-top:0rem;
+  margin-left: 1.8rem;
+}
+
+.areal-text-3{
+  margin-left: 3rem;
+  height: 155px;
+
+}
+
 
 .areal-logo-restaurace{
   height:15rem;
@@ -195,6 +210,9 @@ img{
   }
   .tour-photo{
     padding-top:3rem!important;
+  }
+  .areal-text{
+    display: none;
   }
 }
 

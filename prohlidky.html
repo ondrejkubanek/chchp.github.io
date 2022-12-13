@@ -59,7 +59,7 @@
         <h1 class="long text-white pt-6 ">ZÁBAVA PRO VŠECHNY VĚKOVÉ SKUPINY</h1>
         <p class="py-3 text-white text-title">Chmelový maják, chmelový labyrint, pracovna alchymisty, erbovní síň, Galerie Sladovna či největší chmelařské muzeum na světě  na jednom místě v Žatci.</p>
         <a class="btn btn-primary my-3" href="#prohlidky" role="button">ZJISTI VÍCE</a>
-        <a class="btn btn-secondary my-3" href="#prohlidky" role="button">REZERVAČNÍ SYSTÉM</a>
+        <a class="btn btn-light my-3" href="https://rezervace.chchp.cz" target="_blank" role="button">REZERVAČNÍ SYSTÉM</a>
       </div>
     </div>
 
@@ -84,7 +84,7 @@
                     </div>
                     <div class="paragraf">
                       Doba prohlídky: 90 min
-                      <br>Prohlídky začínají v každou celou hodinu od 10:00 do 15:00. Doporučujeme si <a href="">vytvořit rezervaci</a>.
+                      <br>Prohlídky začínají v každou celou hodinu od 10:00 do 15:00. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                     </div>
                     Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z&nbsp;chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a&nbsp;chmelový poklad. Dále Vás čeká zastávka u&nbsp;Chmelového Orloje, kde se dozvíte jestli se dostanete do pivního pekla nebo ráje a mnoho dalšího, co jediný chmelový orloj v ČR ukazuje. Na závěr navštívíte Galerii Sladovnu s expozicí Sladovnictví, kde se dozvíte, jak se vyráběl slad jako surovina na výrobu piva.
                     <div class="paragraf">
@@ -107,7 +107,7 @@
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: 165 min 
-                    <br>Prohlídky začínají v každou celou hodinu od 10:00 do 15:00 v Chrámu Chmele a Piva. Doporučujeme si <a href="">vytvořit rezervaci</a>.
+                    <br>Prohlídky začínají v každou celou hodinu od 10:00 do 15:00 v Chrámu Chmele a Piva. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                   </div>
                   Společná vstupenka neplatí pro zájezdy a organizované skupiny. Platnost společné vstupenky je dva dny.
                   <div class="paragraf">
@@ -155,7 +155,7 @@
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: 20 min
-                    <br>Prohlídky začínají každou půl hodinu od 10:00 do 16:30. Doporučujeme si <a href="">vytvořit rezervaci</a>.
+                    <br>Prohlídky začínají každou půl hodinu od 10:00 do 16:30. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                   </div>
                   Prohlídka s průvodcem prostřednictvím unikátního výtahu s 3D projekcí kde uvidíte ojedinělou animaci. Chmelový maják je dominanta celého areálu chmelařských technických památek a plní několik funkcí najednou. Vy prostřednictvím výtahu vyjedete do 2/3 výšky a zároveň uvidíte chmelařské město Žatec se svými chmelařskými skvosty.
                   <div class="paragraf">
@@ -203,7 +203,7 @@
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: 45 min
-                    Prohlídka začíná vždy jen v 16:00. Doporučujeme si <a href="">vytvořit rezervaci</a>.
+                    Prohlídka začíná vždy jen v 16:00. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                   </div>
                   Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a chmelový poklad. Dále Vás čeká zastávka u Chmelového Orloje, kde se dozvíte jestli se dostanete do pivního pekla nebo ráje a mnoho dalšího, co jediný chmelový orloj v ČR ukazuje.
                   <div class="paragraf">
@@ -224,7 +224,7 @@
                     Poklonit se ostatkům nejstaršího pivaře na světě a objevit homolupulské geny i v sobě můžete v Muzeu Homolupulů v Žatci. To musíte zažít! Chmelu, chmel!                      
                   </div>
                   <div class="paragraf">
-                    Na prohlídku je NUTNÁ <a href="">rezervace</a>.
+                    Na prohlídku je NUTNÁ <a href="https://rezervace.chchp.cz" target="_blank">rezervace</a>.
                   </div>
                 </div>
               </div>

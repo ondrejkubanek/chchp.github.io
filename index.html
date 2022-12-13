@@ -11,9 +11,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script src="https://kit.fontawesome.com/587366a1da.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link href="css/bootstrap.css" rel="stylesheet" /> 
     <link href="css/styles.css" rel="stylesheet" />
@@ -71,19 +68,23 @@
       <h3 class="long">Areál chrámu chmele a&nbsp;piva</h3>
       <div class="row my-5">
         <div class="col-lg-4">
+          <img class="areal-text " src="./img/assets/GS.png" alt="Expozice Žatec ve filmu, historie o sladovnictvní nebo největší sbírka tužek?">
+          <div class="areal-logo-div">
+            <a href="./areal-sladovna.html"><img class="areal-logo areal-logo-down" src="./img/assets/1_Sladovna.png" alt="Logo Galerie Sladovny."></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="areal-logo-div">
+            <a href="./areal-chram.html"><img class="areal-logo" src="./img/assets/2_CHCHP.png"></a>
+            
+          </div>
+          <img class="areal-text areal-text-2" src="./img/assets/CHCHP.png" alt="Expozice Žatec ve filmu, historie o sladovnictvní nebo největší sbírka tužek?">
+
+        </div>
+        <div class="col-lg-4">
+          <img class="areal-text areal-text-3" src="./img/assets/KZ.png" alt="Expozice Žatec ve filmu, historie o sladovnictvní nebo největší sbírka tužek?">
           <div class="areal-logo-div">
             <a href="./areal-zahrada.html"><img class="areal-logo areal-logo-down" src="./img/assets/3_Zahrada.png"></a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="areal-logo-div">
-            <a href="./areal-chram.html"><img class="areal-logo areal-stred" src="./img/assets/2_CHCHP.png"></a>
-          </div>
-          
-        </div>
-        <div class="col-lg-4">
-          <div class="areal-logo-div">
-            <a href="./areal-sladovna.html"><img class="areal-logo areal-logo-down" src="./img/assets/1_Sladovna.png"></a>
           </div>
         </div>
       </div>
@@ -93,9 +94,10 @@
     <section id="restaurace">
       <div class="banner restaurace-image w-100 vh-100 d-flex align-items-center">
         <div class="container restaurace">
+          <div><a href="#restaurace"><img id="ico" class="logo-restaurace" src="./img/logos/logo_restaurace.png" alt="CHCHP - logo"></a></div>
+
           <h2 class="restaurace-text text-white">NETRADIČNÁ STYLOVÁ RESTAURACE S&nbsp;MINIPIVOVAREM V&nbsp;PŮVODNÍM CHMELOVÉM SKLADU</h2>
             <a class="btn btn-primary my-3" target="_blank" href="https://www.orlojzatec.cz" role="button">RESTAURACE</a>
-            <div><a href="#restaurace"><img id="ico" class="logo-restaurace" src="./img/logos/logo_restaurace.png" alt="CHCHP - logo"></a></div>
         </div>
       </div>
     </section>
