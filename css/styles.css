@@ -81,6 +81,10 @@ html{
   background-image: url("../img/img-pronajem.jpg");
 }
 
+.info-image{
+  background-image: url("../img/img-povinne-informace.jpg");
+}
+
 img{
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -109,6 +113,11 @@ img{
 
 .fa-15x{
   font-size:1.9rem;
+}
+
+.kontakt-logo{
+  height:13rem;
+  margin: auto;
 }
 
 .kontakt-areal-logo{
@@ -217,6 +226,9 @@ img{
   .social-nav{
     margin-left: 0px!important;
 
+  }
+  .text-card-center{
+    text-align: center;
   }
 }
 
