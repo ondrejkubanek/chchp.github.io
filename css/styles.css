@@ -45,7 +45,7 @@ html{
 }
 
 .hero-image {
-  background-image: url('../img/img-hero.jpg');
+  background-image: url('../img/img-povinne-informace.jpg');
 }
 
 .restaurace-image {
@@ -149,6 +149,7 @@ img{
 }
 
 .areal-logo{
+  
   height:230px;
   position: relative;
   left: 50%;
@@ -163,6 +164,7 @@ img{
 
 .areal-logo-div img:hover{
 	opacity: .5!important;
+
 }
 
 .areal-logo-down{
@@ -231,7 +233,6 @@ img{
   }
   .social-nav{
     margin-left: 0px!important;
-
   }
   .text-card-center{
     text-align: center;
@@ -246,6 +247,7 @@ img{
   display: inline;
   padding: 0px !important;
   margin-left: .5rem;
+  color:#214e41 !important;
 }
 
 
