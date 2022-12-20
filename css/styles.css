@@ -241,6 +241,9 @@ img{
   .text-card-center{
     text-align: center;
   }
+  .galerie{
+    width: 100% !important;
+  }
 }
 
 .languages a{
@@ -296,6 +299,11 @@ width: 70px;
 
 .social{
   padding-top:3.5rem;
+}
+
+.galerie{
+  margin: auto;
+  width: 50%;
 }
 
 .icon{
