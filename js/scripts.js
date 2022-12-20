@@ -28,3 +28,7 @@ function topFunction() {
         scrollTop: $("#page-top").offset().top
     }, 200);
 }
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
