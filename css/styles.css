@@ -85,6 +85,10 @@ html{
   background-image: url("../img/img-povinne-informace.jpg");
 }
 
+.restaurace-text{
+  padding-top:8rem;
+}
+
 img{
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -97,8 +101,8 @@ img{
 }
 
 .logo-restaurace{
-  padding:3rem 3.5rem 0 0;
-  height: 12rem;
+  padding:4rem 1rem 0 0;
+  height: 14rem;
  
 }
 
@@ -219,7 +223,7 @@ img{
     height:4rem;
   }
   .events-title{
-    padding:1.5rem;
+    padding: 1.5rem!important;;
   }
   .tour-photo{
     padding-top:3rem!important;
@@ -298,9 +302,13 @@ width: 70px;
   padding:1rem;
 }
 
+#ico-restaurace{
+  padding:4rem 0 1rem 1rem;
+}
+
 .tour-padding{
   padding:3rem 1rem 3rem 1rem;
-
+  text-align: justify;
 }
 .tour-photo{
   padding-top: 3.5rem;
@@ -449,6 +457,7 @@ width: 70px;
 }
 
 .events-title{
+  text-align: justify;
   padding-top:7rem;
 }
 
