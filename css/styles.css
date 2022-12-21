@@ -152,10 +152,13 @@ img{
   margin:auto;
 }
 
+.justify{
+  text-align:justify!important;
+}
+
 /* kontakt logo */
 .areal-logo-kontakt{
-  
-  height:230px;
+  height:50px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -173,7 +176,7 @@ img{
 /* ! kontakt logo */
 
 .areal-logo{
-  width:230px;
+  height:230px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -187,7 +190,17 @@ img{
 
 .areal-logo-div img:hover{
 	opacity: .5!important;
-  width:240px;
+  height:240px;
+}
+
+.foto-hover img:hover{
+  -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+  opacity: 1;
+}
+
+.foto-hover img:hover{
+  opacity: .5!important;
 }
 
 .areal-logo-down{
@@ -210,7 +223,6 @@ img{
 .areal-text-3{
   margin-left: 3rem;
   height: 155px;
-
 }
 
 
@@ -231,10 +243,7 @@ img{
     padding: 0 0 1.5rem 0!important;
     text-align: center !important;
   }
-  .kontakt-areal-text-right, .kontakt-areal-text{
-    text-align: center;
-    margin: 0rem !important;;
-  }
+ 
   .second-order{
     order:1!important;
   }
@@ -244,9 +253,7 @@ img{
   .events-title{
     padding: 1.5rem!important;;
   }
-  .tour-photo{
-    padding-top:3rem!important;
-  }
+ 
   .areal-text{
     display: none;
   }
@@ -258,13 +265,16 @@ img{
     margin-left: 0px!important;
   }
   .text-card-center{
-    text-align: center;
+    text-align: center!important;
   }
   .galerie{
     width: 100% !important;
   }
   .btn-second{
     margin-left: 0rem!important;
+  }
+  .tour-padding{
+    padding:1rem 1rem 1rem 1rem!important;
   }
 }
 
@@ -309,16 +319,15 @@ img{
 #footer-bottom .social a {
 text-decoration: none;
   background: rgba(255, 255, 255, 0.1);
-
   align-items: center;
-border-radius: 150px;
-color: #fff;
-display: flex;
-font-size: 2.125rem;
-height: 70px;
-justify-content: center;
-padding: 0;
-width: 70px;
+  border-radius: 150px;
+  color: #fff;
+  display: flex;
+  font-size: 2.125rem;
+  height: 70px;
+  justify-content: center;
+  padding: 0;
+  width: 70px;
 }
 
 
@@ -340,7 +349,7 @@ width: 70px;
 }
 
 .tour-padding{
-  padding:3rem 1rem 3rem 1rem;
+  padding:2rem 1rem 2rem 1rem;
   text-align: justify;
 }
 .tour-photo{
