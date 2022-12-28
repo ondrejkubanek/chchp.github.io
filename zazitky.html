@@ -1,4 +1,3 @@
-<!-- Some of those will be only once in React! -->
 <!DOCTYPE html>
 <html lang="cs">
   <head>
@@ -11,23 +10,34 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script src="https://kit.fontawesome.com/587366a1da.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+    <link href="lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" /> 
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body>
+  <body id="page-top">
+    <button onclick="topFunction()" class="buttonNahoru" id="buttonUp" style="display: none;"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
     <!-- Navbar  -->
     <nav class="navbar navbar-default navbar-expand-lg p-md-3">
+      
       <div class="container">
-        <a class="navbar-brand " href="./index.html"><img id="ico" class="logo"src="./img/logos/logo-white.png" alt="CHCHP - logo"></a>
+        <a class="navbar-brand " href="./index.html"><img id="ico" class="logo"src="./img/logos/logo-white.png" alt="Logo chrámu chmele a piva"></a>
         <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="toggler-icon top-bar"></span>
           <span class="toggler-icon middle-bar"></span>
           <span class="toggler-icon bottom-bar"></span>
         </button>
+        <div class="languages">
+          <a href="./">
+            <img src="./img/assets/cs.svg" alt="Čeština" height="25px">
+          </a>
+          <a href="./de/index.html">
+            <img src="./img/assets/de.svg" alt="Deutch" height="25px">
+          </a>
+          <a href="./en/">
+            <img src="./img/assets/en.svg" alt="English" height="25px">
+          </a>
+        </div>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
@@ -43,11 +53,9 @@
             <li class="nav-item">
               <a class="nav-link " href="./kontakt.html">KONTAKT</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
+            <li class="nav-item social-nav-item">
+              <a class="nav-link social-nav" href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
+              <a class="nav-link social-nav" href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
             </li>
           </ul>
         </div>
@@ -57,7 +65,7 @@
     <div class="banner zazitky-image w-100 vh-100 d-flex align-items-center">
       <div class="page-title container">
         <h1 class="long text-white pt-6">ZÁŽITKY V ŽATCI A OKOLÍ </h1>
-        <p class="py-3 text-white text-title">Zažijte chmelové i nechmelové dobrodružství v Žatci a blízkém okolí.</p>
+        <p class="py-3 text-white text-title">Zažijte chmelové i nechmelové dobrodružství v&nbsp;Žatci a&nbsp;blízkém okolí.</p>
         <a class="btn btn-primary my-3" href="#zazitky" role="button">ZJISTI VÍCE</a>
       </div>
     </div>
@@ -135,7 +143,7 @@
                   <div class="bg-image hover-overlay ripple rounded ripple-surface-light" data-ripple-color="light">
                     <img src="img/experiences/16.vertikalne.jpg" class="w-100 rounded mb-4" alt="Chmel na nejmenší chmelničce na světě v pozadí synagoga" />
                     <a href="https://synagoga-zatec.cz/" target="_blank">
-                        <div class="mask mask-vertikal">Druhá největší synagoga v ČR</div>
+                        <div class="mask mask-vertikal">Druhá největší synagoga v&nbsp;ČR</div>
                     </a>
                   </div>
 
@@ -205,9 +213,7 @@
                         <div class="mask mask-horizontal">Exkurze v pivovaru Krušovice</div>
                     </a>
                   </div>
-
-
-
+                  <a href="https://www.kudyznudy.cz/?utm_source=kzn&utm_medium=partneri_kzn&utm_campaign=banner" title="Kudyznudy.cz - tipy na výlet" target="_blank"> <img src="https://www.kudyznudy.cz/getmedia/849ee326-f95a-43ce-812c-be9c5817c81e/KzN_banner_234x60.jpg.aspx" width="234"  height="60" alt="Kudyznudy.cz - tipy na výlet"> </a>
                 </div>
               </div>
           </section>
@@ -226,12 +232,12 @@
               <br>IČ: 28733088 DIČ: CZ28733088
             </div>
           </div>
-          <div class="col-lg-4 py-5">
-            <div class="py-3"><a class="btn btn-secondary">Povinné informace</a></div>
-            <div class="py-3"><a class="btn btn-secondary">Kontakt</a></div>
+          <div class="col-lg-4 ">
+            <div class="py-3"><a href="./povinne-informace.html" class="btn btn-secondary">Povinné informace</a></div>
+            <div class="py-3"><a href="./kontakt.html" class="btn btn-secondary">Kontakt</a></div>
             <div class="social py-3 d-flex justify-content-center">
-              <a class="mx-2 text-white social-link" target="_blank" href="https://www.instagram.com/chramchmeleapiva"><i class="icon fab fa-icon fa-instagram fa-15x" aria-hidden="true"></i></a>
-              <a class="mx-2 text-white social-link" target="_blank" href="https://www.facebook.com/chchp"><i class="icon fab fa-icon fa-facebook-f fa-15x" aria-hidden="true"></i></a>
+              <a class="mx-2 text-white social-link" target="_blank" href="https://www.instagram.com/chramchmeleapiva"><i class="icon fab fa-icon fa-instagram " aria-hidden="true"></i></a>
+              <a class="mx-2 text-white social-link" target="_blank" href="https://www.facebook.com/chchp"><i class="icon fab fa-icon fa-facebook-f " aria-hidden="true"></i></a>
             </div>          
           </div>
           <div class="copy col-lg-4">

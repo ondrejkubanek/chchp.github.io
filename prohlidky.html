@@ -1,4 +1,3 @@
-<!-- Some of those will be only once in React! -->
 <!DOCTYPE html>
 <html lang="cs">
   <head>
@@ -13,20 +12,32 @@
     <script src="https://kit.fontawesome.com/587366a1da.js" crossorigin="anonymous"></script>
 
     <link href="lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
-
     <link href="css/bootstrap.css" rel="stylesheet" /> 
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body>
+  <body id="page-top">
+    <button onclick="topFunction()" class="buttonNahoru" id="buttonUp" style="display: none;"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
     <!-- Navbar  -->
     <nav class="navbar navbar-default navbar-expand-lg p-md-3">
+      
       <div class="container">
-        <a class="navbar-brand " href="./index.html"><img id="ico" class="logo"src="./img/logos/logo-white.png" alt="CHCHP - logo"></a>
+        <a class="navbar-brand " href="./index.html"><img id="ico" class="logo"src="./img/logos/logo-white.png" alt="Logo chrámu chmele a piva"></a>
         <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="toggler-icon top-bar"></span>
           <span class="toggler-icon middle-bar"></span>
           <span class="toggler-icon bottom-bar"></span>
         </button>
+        <div class="languages">
+          <a href="./">
+            <img src="./img/assets/cs.svg" alt="Čeština" height="25px">
+          </a>
+          <a href="./de/index.html">
+            <img src="./img/assets/de.svg" alt="Deutch" height="25px">
+          </a>
+          <a href="./en/">
+            <img src="./img/assets/en.svg" alt="English" height="25px">
+          </a>
+        </div>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
@@ -42,11 +53,9 @@
             <li class="nav-item">
               <a class="nav-link " href="./kontakt.html">KONTAKT</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link " href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
+            <li class="nav-item social-nav-item">
+              <a class="nav-link social-nav" href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
+              <a class="nav-link social-nav" href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
             </li>
           </ul>
         </div>
@@ -77,15 +86,15 @@
                     <b>Prohlídka s průvodcem zahrnující vnitřní expozici Chrámu Chmele a&nbsp;Piva a&nbsp;Galerii Sladovna.</b>
                     <div class="paragraf">
                       Plné vstupné: 140 Kč
-                      <br>Zlevněné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> 100 Kč
-                      <br>Rodinné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> 340 Kč
+                      <br>Zlevněné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> : 100 Kč
+                      <br>Rodinné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> : 340 Kč
                       
                     </div>
                     <div class="paragraf">
                       Doba prohlídky: 90 min
-                      <br>Prohlídky začínají v každou celou hodinu od 10:00 do 15:00. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
+                      <br>Prohlídky začínají v každou celou hodinu od 10:00 do 15:00.<br>Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                     </div>
-                    Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z&nbsp;chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a&nbsp;chmelový poklad. Dále Vás čeká zastávka u&nbsp;Chmelového Orloje, kde se dozvíte jestli se dostanete do pivního pekla nebo ráje a&nbsp;mnoho dalšího, co jediný chmelový orloj v ČR ukazuje. Na závěr navštívíte Galerii Sladovnu s expozicí Sladovnictví, kde se dozvíte, jak se vyráběl slad jako surovina na výrobu piva.
+                    Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z&nbsp;chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a&nbsp;chmelový poklad. Dále Vás čeká zastávka u&nbsp;Chmelového Orloje, kde se dozvíte zda se dostanete do pivního pekla nebo ráje a&nbsp;mnoho dalšího, co jediný chmelový orloj na světě ukazuje. Na závěr navštívíte Galerii Sladovnu s expozicí Sladovnictví, Žatec ve filmu, Historie NeObyčejné Tužky a aktuální výstavou umění.
                     <div class="paragraf">
                       <b>V prodeji po celý rok.</b>
                     </div>
@@ -101,12 +110,12 @@
                   <b>Společná vstupenka zahrnující vnitřní expozici Chrámu Chmele a&nbsp;Piva, Galerii Sladovna a Chmelařské muzeum.</b>
                   <div class="paragraf">
                     Plné vstupné: 190 Kč
-                    <br>Zlevněné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> 140 Kč
-                    <br>Rodinné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> 430 Kč
+                    <br>Zlevněné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> : 140 Kč
+                    <br>Rodinné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> : 430 Kč
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: 165 min 
-                    <br>Prohlídky začínají v&nbsp;každou celou hodinu od 10:00 do 15:00 v&nbsp;Chrámu Chmele a&nbsp;Piva. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
+                    <br>Prohlídky začínají v&nbsp;každou celou hodinu od 10:00 do 15:00 v&nbsp;Chrámu Chmele a&nbsp;Piva.<br>Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                   </div>
                   Společná vstupenka neplatí pro zájezdy a organizované skupiny. Platnost společné vstupenky je dva dny.
                   <div class="paragraf">
@@ -125,14 +134,14 @@
                   <b>Prohlídka zahrnující expozice v Galerie Sladovna (Sladovnictví, Žatec ve filmu, Historie Neobyčejné tužky a aktuální výstavu umění v hlavní galerii).</b>
                   <div class="paragraf">
                     Plné vstupné: 70 Kč
-                    <br>Zlevněné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> 60 Kč
-                    <br>Rodinné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> 180 Kč
+                    <br>Zlevněné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> : 60 Kč
+                    <br>Rodinné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> : 180 Kč
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: 45 min
                     <br>Na tento okruh není rezervace nutná.
                   </div>
-                  Uvidíte expozice v renesanční a zároveň nejstarší dochované Sladovně pocházející ze 16. století. Čeká na vás stálá výstava Sladovnictví, Žatec ve filmu a Historie Neobyčejné tužky. V prvním patře se nachází také hlavní galerie, ve které se několikrát do roka obměňují výstavy různých umělců.
+                  Uvidíte expozice v renesanční a zároveň nejstarší dochované Sladovně pocházející ze 16. století. Čeká na vás stálá výstava Sladovnictví, Žatec ve filmu a Historie Neobyčejné tužky. V prvním patře se nachází také hlavní galerie, ve které se&nbsp;několikrát do roka obměňují výstavy různých umělců.
                   <div class="paragraf">
                     <b>V prodeji po celý rok.</b>
                   </div>
@@ -148,15 +157,15 @@
                   <b>Prohlídka s průvodcem a 3D projekcí ve Chmelovém majáku.</b>
                   <div class="paragraf">
                     Plné vstupné: 110 Kč
-                    <br>Zlevněné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> 90 Kč
-                    <br>Rodinné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> 270 Kč
+                    <br>Zlevněné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> : 90 Kč
+                    <br>Rodinné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> : 270 Kč
                     
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: 20 min
-                    <br>Prohlídky začínají každou půl hodinu od 10:00 do 16:30. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
+                    <br>Prohlídky začínají každou půl hodinu od 10:00 do 16:30.<br>Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                   </div>
-                  Prohlídka s průvodcem prostřednictvím unikátního výtahu s 3D projekcí kde uvidíte ojedinělou animaci. Chmelový maják je dominanta celého areálu chmelařských technických památek a plní několik funkcí najednou. Vy prostřednictvím výtahu vyjedete do 2/3 výšky a zároveň uvidíte chmelařské město Žatec se svými chmelařskými skvosty.
+                  Prohlídka s průvodcem prostřednictvím unikátního výtahu s 3D projekcí, kde uvidíte ojedinělou animaci. Chmelový maják je dominanta celého areálu chmelařských technických památek a&nbsp;plní několik funkcí najednou. Prostřednictvím výtahu vyjedete do 2/3 výšky a zároveň uvidíte chmelařské město Žatec se svými skvosty.
                   <div class="paragraf">
                     <b>V prodeji pouze v letní turistické sezóně.</b>
                   </div>
@@ -169,17 +178,17 @@
               <div class="col-lg-7 tour-padding">
                 <h4>Okruh E</h4>
                 <div class="text">
-                  <b>Pěší výstup na rozhlednu Chmelový maják. V případě zájmu si můžete při zakoupení vstupenky za vratnou zálohu půjčit dalekohled.</b>
+                  <b>Pěší výstup na rozhlednu Chmelový maják.<br>V případě zájmu si můžete při zakoupení vstupenky za vratnou zálohu půjčit dalekohled.</b>
                   <div class="paragraf">
                     Plné vstupné: 60 Kč
-                    <br>Zlevněné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> 50 Kč
-                    <br>Rodinné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> 140 Kč
+                    <br>Zlevněné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> : 50 Kč
+                    <br>Rodinné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> : 140 Kč
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: záleží na vás 😊
                     <br>Na tento okruh není rezervace nutná.
                   </div>
-                  Samostatná prohlídka na dominantu celého areálu se zastávkami s&nbsp;výhledem na chmelařské město Žatec a jeho architekturu. Cesta na vrchol je sice fyzicky náročná, ale stojí za to.                  <div class="paragraf">
+                  Samostatná prohlídka na dominantu celého areálu se zastávkami s&nbsp;výhledem na&nbsp;chmelařské město Žatec a jeho architekturu. Cesta na vrchol je sice fyzicky náročná, ale stojí za to.                  <div class="paragraf">
                     <div class="paragraf">
                       <b>V prodeji po celý rok.</b>
                     </div>
@@ -197,14 +206,14 @@
                   <b>Prohlídka s průvodcem zahrnující vnitřní expozici Chrámu Chmele a&nbsp;Piva.</b>
                   <div class="paragraf">
                     Plné vstupné: 110 Kč
-                    <br>Zlevněné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> 80 Kč
-                    <br>Rodinné vstupné: <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> 260 Kč
+                    <br>Zlevněné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Děti, senioři (65 a více let), ZTP a ZTP/P"></i> : 80 Kč
+                    <br>Rodinné vstupné <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 dospělí + až 3 děti"></i> : 260 Kč
                   </div>
                   <div class="paragraf">
                     Doba prohlídky: 45 min
-                    Prohlídka začíná vždy jen v 16:00. Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
+                    Prohlídka začíná v 16:00.<br>Doporučujeme si <a href="https://rezervace.chchp.cz" target="_blank">vytvořit rezervaci</a>.
                   </div>
-                  Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z&nbsp;chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a&nbsp;chmelový poklad. Dále Vás čeká zastávka u Chmelového Orloje, kde se dozvíte jestli se dostanete do pivního pekla nebo ráje a&nbsp;mnoho dalšího, co jediný chmelový orloj v ČR ukazuje.
+                  Uvidíte expozici v bývalém skladu chmele, kterou tvoří labyrint z&nbsp;chmelových žoků, erbovní síň, tajuplná pracovna alchymisty a&nbsp;chmelový poklad. Dále Vás čeká zastávka u Chmelového Orloje, kde se dozvíte zda se dostanete do pivního pekla nebo ráje a&nbsp;mnoho dalšího, co jediný chmelový orloj na světě ukazuje.
                   <div class="paragraf">
                     <b>V prodeji po celý rok.</b>
                   </div>
@@ -219,7 +228,7 @@
                 <h4>Muzeum Homolupulů</h4>
                 <div class="text">
                   <div class="paragraf">
-                    Že nevíte, co je Homo Lupulus? Jedná se o dávnou civilizaci statných mužů a&nbsp;něžných žen, obývající chmeloviště na Žatecku, která dala světu nejlepší chmel, atletiku, pivo, notový klíč, sedmý schod a&nbsp;mnoho dalšího…
+                    Že nevíte, co je Homo Lupulus? Jedná se o dávnou civilizaci statných mužů a&nbsp;něžných žen obývající chmeloviště na Žatecku, která dala světu nejlepší chmel, atletiku, pivo, notový klíč, sedmý schod a&nbsp;mnoho dalšího…
                     Poklonit se ostatkům nejstaršího pivaře na&nbsp;světě a&nbsp;objevit homolupulské geny i v&nbsp;sobě můžete v&nbsp;Muzeu Homolupulů v&nbsp;Žatci. To musíte zažít! Chmelu, chmel!                      
                   </div>
                   <div class="paragraf">
@@ -233,8 +242,35 @@
         </div>
     </section>
 
-    <!-- Footer section -->
-  
+  <!-- Footer section -->
+  <img id="footer" class="footer" src="img/assets/Zapati.png" alt="Zápatí footru" >
+  <section id="footer-bottom" class=" bg-green text-white">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-4">
+         <a href="#"><img id="ico" style="height:9.5rem;" src="./img/logos/logo-white.png" alt="CHCHP - logo"></a>
+         <div class="footer-text">
+           <br>Chrám Chmele a Piva CZ, p.o.
+           <br>náměstí Prokopa Velkého 1951
+           <br>Žatec, 438 01, Česká republika
+           <br>IČ: 28733088 DIČ: CZ28733088
+         </div>
+       </div>
+       <div class="col-lg-4 ">
+         <div class="py-3"><a href="./povinne-informace.html" class="btn btn-secondary">Povinné informace</a></div>
+         <div class="py-3"><a href="./kontakt.html" class="btn btn-secondary">Kontakt</a></div>
+         <div class="social py-3 d-flex justify-content-center">
+           <a class="mx-2 text-white social-link" target="_blank" href="https://www.instagram.com/chramchmeleapiva"><i class="icon fab fa-icon fa-instagram " aria-hidden="true"></i></a>
+           <a class="mx-2 text-white social-link" target="_blank" href="https://www.facebook.com/chchp"><i class="icon fab fa-icon fa-facebook-f " aria-hidden="true"></i></a>
+         </div>          
+       </div>
+       <div class="copy col-lg-4">
+         Copyright &copy; 2021–2022
+         <br>Created by: <a href="https://www.ondrejkubanek.cz">Ondřej Kubánek</a>
+       </div>
+     </div>
+   </div>
+  </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.js"></script>
