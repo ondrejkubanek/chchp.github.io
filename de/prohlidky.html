@@ -1,0 +1,278 @@
+<!-- Some of those will be only once in React! -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Úvodní stránka | CHCHP</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.Minuten.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.Minuten.js"></script>
+
+    <script src="https://kit.fontawesome.com/587366a1da.js" crossorigin="anonymous"></script>
+
+    <link href="../lightbox2-2.11.3/dist/css/lightbox.Minuten.css" rel="stylesheet" />
+    <link href="../css/bootstrap.css" rel="stylesheet" /> 
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="page-top">
+    <button onclick="topFunction()" class="buttonNahoru" id="buttonUp" style="display: none;"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-default navbar-expand-lg p-md-3">
+      
+      <div class="container">
+        <a class="navbar-brand " href="../index.html"><img id="ico" class="logo"src="../img/logos/logo-white.png" alt="Logo chrámu chmele a piva"></a>
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="languages">
+          <a href="../">
+            <img src="../img/assets/cs.svg" alt="Čeština" height="25px">
+          </a>
+          <a href="de/">
+            <img src="../img/assets/de.svg" alt="Deutch" height="25px">
+          </a>
+          <a href="en/">
+            <img src="../img/assets/en.svg" alt="English" height="25px">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./prohlidky.html">FÜHRUNGEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./zazitky.html">ERLEBNISSE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./pronajem.html">VERMIETUNGEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./kontakt.html">KONTAKTE</a>
+            </li>
+            <li class="nav-item social-nav-item">
+              <a class="nav-link social-nav" href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
+              <a class="nav-link social-nav" href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
+
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Title Image  -->
+    <div class="banner prohlidky-image w-100 vh-100 d-flex align-items-center">
+      <div class="page-title container">
+        <h1 class="long text-white pt-6 ">UNTERHALTUNG FÜR ALLE ALTERSKLASSEN</h1>
+        <p class="py-3 text-white text-title">Hopfenleuchtturm, Hopfenlabyrinth, Alchimistenarbeitsplatz, Wappenkammer, Galerie Mälzerei oder das weltgrößte Hopfenmuseum alles an einem Ort in Saaz.</p>
+        <a class="btn btn-primary my-3" href="#prohlidky" role="button">ERFAHRE NOCH MEHR</a>
+        <a class="btn btn-light my-3" href="https://rezervace.chchp.cz" target="_blank" role="button">RESERVIERUNGS</a>
+      </div>
+    </div>
+
+    <!-- Prohlidky section -->
+    <section id="prohlidky" class="prohlidky">
+        <div class="container">
+            <h3 class="short">FÜHRUNGEN</h3>
+            <div class="row">
+              <!-- Tour -->
+                <div class="col-lg-5 tour-padding tour-photo">
+                  <a href="../img/tours/Okruh-A.jpg" data-lightbox="image-1" data-title="Budova Chrámu Chmele a Piva"><img src="../img/tours/Okruh-A.jpg" class="img-fluid ripple rounded ripple-surface-light" alt="Budova Chrámu Chmele a Piva"></a>
+                </div>
+                <div class="col-lg-7 tour-padding ">
+                  <h4>Trasse A</h4>
+                  <div class="text">
+                    <b>Führung mit einem Begleiter durch die innere Exposition im Hopfen und Bier Tempel und in der Galerie Mälzerei.</b>
+                    <div class="paragraf">
+                      Eintritt: 140 CZK
+                      <br>Ermäßigt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Kinder, Senioren (65 und älter) und Invaliden"></i> : 100 CZK
+                      <br>Familieneintritt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 Erwachsene + bis 3 Kinder"></i> : 340 CZK
+                      
+                    </div>
+                    <div class="paragraf">
+                      Dauer der Führung: 90 Minuten
+                      <br>Die Führungen beginnen immer zur vollen Stunde von 10:00 bis 15:00 Uhr.<br>Es ist gut zu <a href="https://rezervace.chchp.cz" target="_blank">reservieren</a>.
+                    </div>
+                    Sie sehen die Exposition in einem ursprünglichen Hopfenlager, gebildet von dem Labyrinth der Hopfensäcke, der Wappenkammer, dem geheimnisvollen Alchimistenarbeitsplatz und dem Hopfenschatz.  Des Weiteren halten Sie an der Hopfenturmuhr an, wo Sie erfahren, ob Sie in den Hopfenhimmel oder in die Hopfenhölle kommen und vieles Andere, was die in der Tschechischen Republik einzigartige Hopfenturmuhr zeigt. Zum Schluss kommen Sie in die Galerie Mälzerei mit Exposition, wo Sie hören werden, wie man das Malz - den Bierbrauerrohstoff - produziert hat und man zeigt Ihnen Auszüge von bekannten Filmen, die in Saaz gedreht wurde.                    <div class="paragraf">
+                      <b>Gilt für das ganze Jahr.</b>
+                    </div>
+                  </div>
+                </div>
+              <!-- Tour -->
+              <div class="col-lg-5 tour-padding tour-photo">
+                <a href="../img/tours/Okruh-B.jpg" data-lightbox="image-2" data-title="Budova Chmelařského muzea a Chmelový maják"><img src="../img/tours/Okruh-B.jpg" class="img-fluid ripple rounded ripple-surface-light" alt="Budova Chmelařského muzea a Chmelový maják"></a>
+              </div>
+              <div class="col-lg-7 tour-padding">
+                <h4>Trasse B</h4>
+                <div class="text">
+                  <b>Gemeinsame Eintrittskarte für die innere Exposition im Hopfen und Bier Tempel, die Galerie Mälzerei und das Hopfenmuseum – weltweit das größte Museum dieser Art.</b>
+                  <div class="paragraf">
+                    Eintritt: 190 CZK
+                    <br>Ermäßigt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Kinder, Senioren (65 und älter) und Invaliden"></i> : 140 CZK
+                    <br>Familieneintritt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 Erwachsene + bis 3 Kinder"></i> : 430 CZK
+                  </div>
+                  <div class="paragraf">
+                    Dauer der Führung: 165 Minuten 
+                    <br>Die Führungen beginnen immer zur vollen Stunde von 10:00 bis 15:00 Uhr. <br>Es ist gut zu <a href="https://rezervace.chchp.cz" target="_blank">reservieren</a>.
+                  </div>
+                  Die gemeinsame  Eintrittskarte gilt nicht für organisierte Gruppen. Die gemeinsame Eintrittskarte gilt 2 Tage.                  <div class="paragraf">
+                    <b>Verkauf nur von April bis Oktober.</b>
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- Tour -->
+              <div class="col-lg-5 tour-padding tour-photo">
+                <a href="../img/tours/Okruh-C.jpg" data-lightbox="image-3" data-title="Expozice sladovnictvní v renesanční Sladovně"><img src="../img/tours/Okruh-C.jpg" class="img-fluid ripple rounded ripple-surface-light" alt="Expozice sladovnictvní v renesanční Sladovně"></a>
+              </div>
+              <div class="col-lg-7 tour-padding">
+                <h4>Trasse C</h4>
+                <div class="text">
+                  <b>Die Führung umfasst die Galerie Mälzerei (Malzwesen, Saaz im Film, Geschichte eines ungewöhnlichen Bleistiftes und aktuelle Kunstaustellung in der Hauptgalerie).</b>
+                  <div class="paragraf">
+                    Eintritt: 70 CZK
+                    <br>Ermäßigt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Kinder, Senioren (65 und älter) und Invaliden"></i> : 60 CZK
+                    <br>Familieneintritt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 Erwachsene + bis 3 Kinder"></i> : 180 CZK
+                  </div>
+                  <div class="paragraf">
+                    Dauer der Führung: 45 Minuten
+                    <br>Für diese Trasse braucht man keine Reservierung.
+                  </div>
+                  Sie werden die Exposition in der ältesten erhaltenen Renaissancemälzerei  aus dem 16. Jahrhundert sehen. Es erwartet Sie die ständige Ausstellung  des Malzwesens, Saaz im Film und die Geschichte des ungewöhnlichen Bleistiftes mit Interaktivelementen. In der ersten Etage befindet sich auch die Hauptgalerie, in der einige Male pro Jahr Ausstellungen verschiedener Künstler stattfinden.                   <div class="paragraf">
+                    <b>Verkauf das ganze Jahr nur in der Galerie Mälzerei.</b>
+                  </div>
+                </div>
+              </div>
+              <!-- Tour -->
+              <div class="col-lg-5 tour-padding tour-photo">
+                <a href="../img/tours/Okruh-D.jpg" data-lightbox="image-4" data-title="Chmelový maják, doMinutenanta areálu"><img src="../img/tours/Okruh-D.jpg" class="img-fluid ripple rounded ripple-surface-light" alt="Chmelový maják, doMinutenanta areálu"></a>
+              </div>
+              <div class="col-lg-7 tour-padding">
+                <h4>Trasse D</h4>
+                <div class="text">
+                  <b>Führung mit einem Begleiter  und mit einer 3D Projektion im Hopfenleuchtturm.</b>
+                  <div class="paragraf">
+                    Eintritt: 110 CZK
+                    <br>Ermäßigt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Kinder, Senioren (65 und älter) und Invaliden"></i> : 90 CZK
+                    <br>Familieneintritt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 Erwachsene + bis 3 Kinder"></i> : 270 CZK
+                    
+                  </div>
+                  <div class="paragraf">
+                    Dauer der Führung: 20 Minuten
+                    <br>Die Führungen beginnen immer zur halben  Stunde von 10:00 bis 16:30 Uhr. <br>Es ist gut zu <a href="https://rezervace.chchp.cz" target="_blank">reservieren</a>.
+                  </div>
+                  Führung mit einem Begleiter mittels eines einzigartigen Aufzuges mit 3D Projektion. Der Hopfenleuchtturm stellt eine Dominante des ganzen Areals der technischen Hopfendenkmalanlagen dar und erfüllt mehrere Funktionen. Sie fahren mit dem Aufzug in zwei Dritteln hoch und sehen die Hopfenstadt Saaz mit ihren Hopfenjuwelen.                   <div class="paragraf">
+                    <b>Verkauf nur in der Sommersaison.</b>
+                  </div>
+                </div>
+              </div>
+              <!-- Tour -->
+              <div class="col-lg-5 tour-padding tour-photo">
+                <a href="../img/tours/Okruh-E.jpg" data-lightbox="image-5" data-title="Pohled z dalekohledu na Chmelovém majáku"><img src="../img/tours/Okruh-E.jpg" class="img-fluid ripple rounded ripple-surface-light" alt="Pohled z dalekohledu na Chmelovém majáku"></a>
+              </div>
+              <div class="col-lg-7 tour-padding">
+                <h4>Trasse E</h4>
+                <div class="text">
+                  <b>Zu Fuß steigen auf den Aussichtsturm Hopfenleuchtturm. Falls Sie wollen, können Sie sich beim bezahlen des Eintritts gegen Kaution ein Fernglas ausleihen</b>
+                  <div class="paragraf">
+                    Eintritt: 60 CZK
+                    <br>Ermäßigt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Kinder, Senioren (65 und älter) und Invaliden"></i> : 50 CZK
+                    <br>Familieneintritt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 Erwachsene + bis 3 Kinder"></i> : 140 CZK
+                  </div>
+                  <div class="paragraf">
+                    Dauer der Führung hängt von Ihnen ab. 😊
+                    <br>Für diese Trasse braucht man keine Reservierung.
+                  </div>
+                  Selbständige Besichtigung der Dominante des ganzen Areals mit Aufenthalten bei der Aussicht auf die Hopfenstadt Saaz und ihre Architektur. Der Aufstieg zum Gipfel ist zwar anspruchsvoll, aber sie lohnt sich.
+                  <div class="paragraf">
+                    <b>Verkauf über das ganze Jahr.</b>
+                  </div>
+                </div>
+              </div>
+
+               <!-- Tour -->
+               <div class="col-lg-5 tour-padding tour-photo">
+                <a href="../img/tours/Okruh-F.jpg" data-lightbox="image-6" data-title="Erbovní síň v Chrámu Chmele a Piva"><img src="../img/tours/Okruh-F.jpg" class="img-fluid ripple rounded ripple-surface-light" alt="Erbovní síň v Chrámu Chmele a Piva"></a>
+              </div>
+              <div class="col-lg-7 tour-padding">
+                <h4>Trasse F</h4>
+                <div class="text">
+                  <b>Führung mit einem Begleiter durch die innere Exposition des Hopfen und Bier Tempels.</b>
+                  <div class="paragraf">
+                    Eintritt: 110 CZK
+                    <br>Ermäßigt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="Kinder, Senioren (65 und älter) und Invaliden"></i> : 80 CZK
+                    <br>Familieneintritt <i class="fa fa-question-circle " data-toggle="tooltip" data-placement="top" title="2 Erwachsene + bis 3 Kinder"></i> : 260 CZK
+                  </div>
+                  <div class="paragraf">
+                    Dauer der Führung: 45 Minuten
+                    Die Führung beginnt um 16:00 Uhr. <br>Wir empfehlen eine <a href="https://rezervace.chchp.cz" target="_blank">Reservierung</a>.
+                  </div>
+                  Sie sehen die Exposition in einem ursprünglichen Hopfenlager, gebildet von dem Labyrinth der Hopfensäcke, die Wappenkammer, geheimnisvollen Alchimistenarbeitsplatz und den Hopfenschatz.  Des Weiteren halten Sie an der Hopfenturmuhr an, wo Sie erfahren, ob Sie in den Hopfenhimmel oder in die Hopfenhölle kommen und vieles Andere, was die in der Tschechischen Republik einzigartige Hopfenturmuhr zeigt.
+                  <div class="paragraf">
+                    <b>Verkauf über das ganze Jahr.</b>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tour -->
+              <div class="col-lg-5 tour-padding tour-photo">
+                <a href="../img/tours/Muzeum-Homolupulu.jpg" data-lightbox="image-7" data-title="Muzeum Homolupulů"><img src="../img/tours/Muzeum-Homolupulu.jpg" class="img-fluid ripple rounded ripple-surface-light" alt="Muzeum Homolupulů"></a>
+              </div>
+              <div class="col-lg-7 tour-padding">
+                <h4>Das Museum der Homolupulen</h4>
+                <div class="text">
+                  <div class="paragraf">
+                    Sie wissen nicht, wer Homo Lupulus ist? Es handelt sich um eine alte Zivilisation von kräftigen Männern und zarten Frauen, die das Saazer Hopfenanbaugebiet, woher die Welt den besten Hopfen, die Athletik, das Bier, die Notenskala, die siebente Kellerstiege und vieles Andere bekommen hat,  bewohnt haben.
+                    Sich vor den sterblichen Überresten des weltältesten Biertrinkers zu verneigen und auch bei sich die Homolupulensgene zu finden, das können Sie im Museum der Homolupulen in Saaz machen. Hopfen, oh Hopfen!.
+                  </div>
+                  <div class="paragraf">
+                    Für die Führung ist die <a href="https://rezervace.chchp.cz" target="_blank">Reservation obligatorisch</a>.
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+        </div>
+    </section>
+
+  <!-- Footer section -->
+  <img id="footer" class="footer" src="../img/assets/Zapati.png" alt="Zápatí footru" >
+  <section id="footer-bottom" class=" bg-green text-white">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-4">
+         <a href="#"><img id="ico" style="height:9.5rem;" src="../img/logos/logo-white.png" alt="CHCHP - logo"></a>
+         <div class="footer-text">
+           <br>Chrám Chmele a Piva CZ, p.o.
+           <br>náměstí Prokopa Velkého 1951
+           <br>Žatec, 438 01, Česká republika
+           <br>IČ: 28733088 DIČ: CZ28733088
+         </div>
+       </div>
+       <div class="col-lg-4 ">
+         <div class="py-3"><a href="../povinne-informace.html" class="btn btn-secondary">Povinné informace</a></div>
+         <div class="py-3"><a href="../kontakt.html" class="btn btn-secondary">Kontakt</a></div>
+         <div class="social py-3 d-flex justify-content-center">
+           <a class="mx-2 text-white social-link" target="_blank" href="https://www.instagram.com/chramchmeleapiva"><i class="icon fab fa-icon fa-instagram " aria-hidden="true"></i></a>
+           <a class="mx-2 text-white social-link" target="_blank" href="https://www.facebook.com/chchp"><i class="icon fab fa-icon fa-facebook-f " aria-hidden="true"></i></a>
+         </div>          
+       </div>
+       <div class="copy col-lg-4">
+         Copyright &copy; 2021–2022
+         <br>Created by: <a href="https://www.ondrejkubanek.cz">Ondřej Kubánek</a>
+       </div>
+     </div>
+   </div>
+  </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../lightbox2-2.11.3/dist/js/lightbox.min.js"></script>
+  </body>
+</html>
