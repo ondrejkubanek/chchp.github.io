@@ -1,16 +1,30 @@
 var nav = document.querySelector('nav');
 var ico = document.getElementById('ico');
+
 if($(window).width() < 992){
-  ico.src="./img/logos/logo-black.png";
+  if (document.documentElement.lang === "cs") {
+    ico.src="./img/logos/logo-black.png";
+  } else {
+    ico.src="../img/logos/logo-black.png";
+  }
   nav.classList.add('bg-light','shadow');}
-window.addEventListener("resize", myFunction);
-function myFunction() {
+  window.addEventListener("resize", myFunction);
+  function myFunction() {
   if($(window).width() < 992){
   nav.classList.add('bg-light', 'shadow');
-  ico.src="./img/logos/logo-black.png";
-}else{
+  if (document.documentElement.lang === "cs") {
+    ico.src="./img/logos/logo-black.png";
+  } else {
+    ico.src="../img/logos/logo-black.png";
+  }
+  }else{
   nav.classList.remove('bg-light', 'shadow');
-  ico.src="./img/logos/logo-white.png";
+  if (document.documentElement.lang === "cs") {
+    ico.src="./img/logos/logo-white.png";
+  } else {
+    ico.src="../img/logos/logo-white.png";
+  }
+
 
 }};
 
