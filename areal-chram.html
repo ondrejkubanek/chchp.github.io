@@ -1,19 +1,15 @@
-<!-- Some of those will be only once in React! -->
 <!DOCTYPE html>
 <html lang="cs">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chrám chmele a piva | CHCHP</title>
+    <title>Chrám Chmele a Piva | CHCHP</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script src="https://kit.fontawesome.com/587366a1da.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link href="lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" /> 
@@ -23,13 +19,25 @@
     <button onclick="topFunction()" class="buttonNahoru" id="buttonUp" style="display: none;"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
     <!-- Navbar  -->
     <nav class="navbar navbar-default navbar-expand-lg p-md-3">
+      
       <div class="container">
-        <a class="navbar-brand " href="./index.html"><img id="ico" class="logo"src="./img/logos/logo-white.png" alt="CHCHP - logo"></a>
+        <a class="navbar-brand " href="./index.html"><img id="ico" class="logo"src="./img/logos/logo-white.png" alt="Logo chrámu chmele a piva"></a>
         <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="toggler-icon top-bar"></span>
           <span class="toggler-icon middle-bar"></span>
           <span class="toggler-icon bottom-bar"></span>
         </button>
+        <div class="languages">
+          <a href="./">
+            <img src="./img/assets/cs.svg" alt="Čeština" height="25px">
+          </a>
+          <a href="./de/index.html">
+            <img src="./img/assets/de.svg" alt="Deutch" height="25px">
+          </a>
+          <a href="./en/">
+            <img src="./img/assets/en.svg" alt="English" height="25px">
+          </a>
+        </div>
         <div class="collapse navbar-collapse " id="navbarNav">
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
@@ -45,12 +53,12 @@
             <li class="nav-item">
               <a class="nav-link " href="./kontakt.html">KONTAKT</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item social-nav-item">
               <a class="nav-link social-nav" href="https://www.instagram.com/chramchmeleapiva" target="_blank"><i class="fab fa-icon fa-instagram fa-15x"></i></a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link social-nav" href="https://www.facebook.com/chchp" target="_blank"><i class="fab fa-facebook fa-15x" aria-hidden="true"></i></a>
+
             </li>
+           
           </ul>
         </div>
       </div>
