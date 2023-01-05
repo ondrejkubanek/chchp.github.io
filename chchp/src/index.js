@@ -1,15 +1,9 @@
-import React from "react"
-import ReactDOM from "react-dom"
-//import Navbar from "./components/Navbar" -- routing bez pouziti komponenty react-router-dom
+import React from "react";
+import Navbar from "./components/Navbar";
+import "./pages/index.jsx";
+import ReactDOM from "react-dom/client";
 
-
-// StrictMode is a tool for highlighting potential problems in an application. Like Fragment, StrictMode does not render any visible UI.
-//It activates additional checks and warnings for its descendants.
-ReactDOM.render(
-    <React.StrictMode>
-        <Navbar/>
-
-
-    </React.StrictMode>,
-    document.getElementById("root")
-)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    Navbar()
+);

@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "react-router-dom": "^6.6.1"
+  },
+  "dependencies": {
+    "react-helmet-async": "^1.3.0"
   }
 }
