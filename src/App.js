@@ -17,6 +17,7 @@ import "./imgImports"
 
 // Pages
 const Error404 = React.lazy(() => import('./pages/404'))
+const Template = React.lazy(() => import('./pages/template'))
 
 class App extends Component {
     render() {
@@ -25,11 +26,15 @@ class App extends Component {
 
                 <Routes>
                     <Route exact path="/pages/404" name="Page 404" element={<Error404/>}/>
+                    <Route exact path="/template" name="template" element={<Template/>}/>
 
                 </Routes>
 
             </HashRouter>,
-                Error404()
+                Error404(),
+                Template()
+
+                
         )
     }
 }

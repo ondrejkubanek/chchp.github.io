@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function Template() {
     return <>
@@ -9,7 +10,7 @@ export default function Template() {
 
         </Helmet>
 
-        <div id="template">
+        <div id="root">
 
 
             <h1>Template</h1>

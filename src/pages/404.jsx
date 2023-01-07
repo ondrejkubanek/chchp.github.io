@@ -12,8 +12,7 @@ const Page404 = () => {
             <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <title>Error #404 | CHCHP</title>
-            <link href="../scss/css/bootstrap.css" rel="stylesheet"/>
-            <link href="../scss/css/styles.css" rel="stylesheet"/>
+
 
         </Helmet>,
 
