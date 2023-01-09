@@ -2,15 +2,24 @@ import React, {Component, Suspense} from 'react'
 import {HashRouter, Route, Routes} from 'react-router-dom'
 
 import "./scss/css/bootstrap.css"
+import "./scss/css/bootstrap.css.map"
 import "./scss/css/styles.css"
 import "./components/Navbar"
 import "./imgImports"
+import Navbar from './components/Navbar'
+
+
+function App(){
+    return(
+        Navbar()
+    )
+}
 
 /* /const loading = (
     <div className="pt-3 text-center">
         <div className="sk-spinner sk-spinner-pulse"></div>
     </div>
-)*/
+)
 
 // Containers
 //const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'))
@@ -32,12 +41,13 @@ class App extends Component {
 
             </HashRouter>,
                 Error404(),
-                Template()
+                Template(),
+                Navbar()
 
                 
         )
     }
-}
+}*/
 
 export default App
 

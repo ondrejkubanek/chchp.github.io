@@ -1,12 +1,14 @@
 import React from "react"
+import "../imgImports.js"
 
-function Navbar() {
-    return (<h1>test</h1>)
-    /*
+
+export default function Navbar() {
+    return (
+    
     <nav className="navbar navbar-default navbar-expand-lg p-md-3">
         <div className="container">
             <a className="navbar-brand " href="./index.html"><img id="ico" className="logo"
-                                                                  src="./img/logos/logo-white.png"
+                                                                  src="../img/logos/logo-white.png"
                                                                   alt="Logo chrámu chmele a piva"/></a>
             <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
                     type="button"
@@ -19,13 +21,13 @@ function Navbar() {
             </button>
             <div className="languages">
                 <a href="./">
-                    <img src="./img/assets/cs.svg" alt="Čeština" height="25px"/>
+                    <img src="../img/assets/cs.svg" alt="Čeština" height="25px"/>
                 </a>
                 <a href="./de/index.html">
-                    <img src="./img/assets/de.svg" alt="Deutch" height="25px"/>
+                    <img src="../img/assets/de.svg" alt="Deutch" height="25px"/>
                 </a>
                 <a href="./en/">
-                    <img src="./img/assets/en.svg" alt="English" height="25px"/>
+                    <img src="../img/assets/en.svg" alt="English" height="25px"/>
                 </a>
             </div>
             <div className="collapse navbar-collapse " id="navbarNav">
@@ -54,6 +56,6 @@ function Navbar() {
             </div>
         </div>
     </nav>
-)*/
+)
 }
 
