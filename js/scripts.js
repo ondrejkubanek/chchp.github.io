@@ -51,7 +51,8 @@ window.addEventListener('scroll', reveal);
 
 function reveal(){
   var reveals = document.querySelectorAll('.reveal');
-  console.log(reveals);
+  var revealsText = document.querySelectorAll('.reveal-text');
+
   for(var i=0;i<reveals.length;i++){
     console.log(reveals[i]);
     var windowHeight = window.innerHeight;
@@ -65,4 +66,18 @@ function reveal(){
     }
 
   }
+
+  for(var i=0;i<revealsText.length;i++){
+    console.log(revealsText[i]);
+    var windowHeight = window.innerHeight;
+    var revealTop = revealsText[i].getBoundingClientRect().top;
+    var revealPoint = 150;
+
+    if(revealTop < windowHeight - revealPoint){
+      revealsText[i].classList.add('ActiveRevealText');
+    }else{
+      revealsText[i].classList.remove('ActiveRevealText');
+    }
+  }
+
 }
