@@ -85,7 +85,7 @@ function reveal(){
 var interval = setInterval(function(){
   var countForVideo = document.getElementById('video').readyState;
   if(countForVideo == 4){
-    document.getElementById('vid').play();
+    document.getElementById('video').play();
     clearInterval(interval);
   }
 },2000);
