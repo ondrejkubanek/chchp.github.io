@@ -239,7 +239,7 @@ img{
     height: 400px !important;
   }
   .copy{
-    padding: 0 0 1.5rem 0!important;
+    padding: 4rem 0 3rem 0!important;
     text-align: center !important;
   }
  
@@ -294,7 +294,7 @@ img{
 
 .copy{
   padding-top: 10rem;
-  text-align: right!important;
+  text-align: right;
 }
 
 .video{
