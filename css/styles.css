@@ -240,6 +240,8 @@ img{
   }
   .copy{
     text-align: center !important;
+    padding-top: 20px!important;
+    
   }
  
   .second-order{
@@ -293,6 +295,7 @@ img{
 
 .copy{
   text-align: right;
+  padding-top:160px;
 }
 
 .video{
