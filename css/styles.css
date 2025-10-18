@@ -3,6 +3,10 @@ html{
   letter-spacing: .07rem;
 }
 
+b, strong {
+  font-weight: 700 !important;
+}
+
 .banner{
   position: relative;
   width: 100%;
